@@ -1,38 +1,108 @@
-/*
-Theme Name: KenzieFlix
-Author: Kenzie Academy
-Author URI: kenzie.com.br;
-Version: 1.0
- 
---------------------------------------------
-SUGESTÃO DE ESTRUTURAÇÃO BASE 
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** BODY
-**** TOPO
-**** RODAPÉ
-**** PÁGINA INICIAL
-*/
 
-/* VARIÁVEIS */
-:root{
-  
+	body{
+		background-color: #00002e;
+		font-family:  'Helvetica Neue',Helvetica,Arial,sans-serif;
+		color: rgb(165, 164, 164);
+	
+	}
+
+	h2{
+	
+		color: white;
+		text-align: center;
+		font-size: 32px;
+		margin: 15px 0 25px;
+		font-weight: bold;
+	}
+	figcaption{
+		display: none;
+	}
+
+ul{
+	
+    position: relative;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	flex-wrap: wrap;
+
 }
 
-/*BODY*/
-	body{
 
-	}
 
-/*TOPO*/
-	header.topo{
-		
-	}
+ul li img{
+	width:150px ;
+	margin: 20px 0;
+	border: 2px solid transparent;
+}
 
-/*RODAPÉ*/
+ul li{
+
+	width: 168px;
+    display: flex;
+    position: relative;
+    border: 2px solid transparent;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
 	
+}
 
-/*PÁGINA INICIAL*/
-	div.pg-home{
-		
-	}
+.addPerfil img{
+	width: 100px;
+	border: none;
+}
+.addPerfil img:hover{
+	border: none;
+}
+.addPerfil{
+	position: relative;
+	top: 15px;
+}
+
+
+button{
+	position: relative;
+    margin-top: 43px;
+    display: flex;
+    background-color: #00002e;
+    width: 168px;
+    height: 42px;
+    color: rgb(165, 164, 164);
+    border: 2px solid rgb(165, 164, 164);
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+}
+
+li img:hover{
+	border: 2px solid rgb(165, 164, 164);
+
+}
+
+@media screen and (min-width: 700px){
+
+
+ul{
+	width: 858px;
+
+}
+
+ul li img{
+	width:168px ;
+	margin: 20px 0;
+	border: 2px solid transparent;
+}
+
+h2{
+	margin-top: 80px;
+	font-weight: 500;
+	font-size: 4rem;
+	
+}
+
+}
