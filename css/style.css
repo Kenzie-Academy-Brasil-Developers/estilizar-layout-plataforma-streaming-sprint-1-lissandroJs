@@ -38,7 +38,7 @@ ul li img{
 
 ul li{
 
-	width: 168px;
+	width: 186px;
     display: flex;
     position: relative;
     border: 2px solid transparent;
@@ -93,7 +93,7 @@ ul{
 }
 
 ul li img{
-	width:168px ;
+	width:186px;
 	margin: 20px 0;
 	border: 2px solid transparent;
 }
